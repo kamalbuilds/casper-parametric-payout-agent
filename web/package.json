@@ -1,0 +1,30 @@
+{
+  "name": "web",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@make-software/csprclick-core-types": "^2.1.0",
+    "@make-software/csprclick-types": "^0.7.1",
+    "@make-software/csprclick-ui": "^2.1.0",
+    "@make-software/csprclick-web-sdk": "^0.7.1",
+    "casper-js-sdk": "^5.0.12",
+    "next": "14.2.35",
+    "react": "^18",
+    "react-dom": "^18",
+    "styled-components": "^5.3.11"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "eslint": "^8",
+    "eslint-config-next": "14.2.35",
+    "typescript": "^5"
+  }
+}
